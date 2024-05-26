@@ -1,11 +1,11 @@
 public class Akü {
-    private int voltaj;
+    private double voltaj;
     private String sağlık;
-    public Akü(int v, String s){
+    public Akü(double v, String s){
         voltaj=v;
         sağlık=s;
     }
-    public int getVoltaj(){
+    public double getVoltaj(){
         return voltaj;
     }
     public String getSağlık(){
